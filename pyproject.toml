@@ -1,0 +1,13 @@
+[project]
+name = "ai-therapist"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.27",
+    "langchain-openai>=0.3.32",
+    "langgraph>=0.6.6",
+    "ollama>=0.5.3",
+    "streamlit>=1.49.1",
+]
