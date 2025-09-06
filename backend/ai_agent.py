@@ -43,8 +43,8 @@ def find_nearby_therapists_by_location(location: str) -> str:
     """
     return (
         f"Here are some therapists near {location}, {location}:\n"
-        "- Dr. Ayesha Kapoor - +1 (555) 123-4567\n"
-        "- Dr. James Patel - +1 (555) 987-6543\n"
+        "- Dr. Aaradhya Trivedi - +1 (120) 123-4567\n"
+        "- Dr. Renu Goyal - +1 (120) 987-6543\n"
         "- MindCare Counseling Center - +1 (555) 222-3333"
     )
 

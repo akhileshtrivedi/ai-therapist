@@ -23,7 +23,7 @@ if user_input:
     fixed_dummy_response="I am here for you. You can share you problem with me and i am try to provide correct sollutions."
     #st.session_state.chat_history.append({"role": "assistant", "content": response.json()})
     #print(response)
-    st.session_state.chat_history.append({"role": "assistant", "content": f'{response.json()["response"]} WITH TOOL: [{response.json()["tool_called"]}]'})
+    st.session_state.chat_history.append({"role": "assistant", "content": f'{response.json()["response"]} Provided By This Tool: [{response.json()["tool_called"]}]'})
 
 
 # Step3: Show response from backend
