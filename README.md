@@ -4,7 +4,7 @@
 
 ### STEP 00- Clone the repository
 
-https://github.com/akhileshtrivedi/Medical-Chatbot-Pinecone.git
+https://github.com/akhileshtrivedi/ai-therapist.git
 
 ### STEP 01- Create a virtual environment after opening the repository
 
@@ -26,7 +26,6 @@ pip install -r requirements.txt
 ### Create a `.env` file in the root directory and add your Pinecone & openai credentials as follows:
 
 ```ini
-PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
