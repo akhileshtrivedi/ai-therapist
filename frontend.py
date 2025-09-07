@@ -4,8 +4,8 @@ import requests
 
 BACKEND_URL = "http://localhost:8000/ask"
 
-st.set_page_config(page_title="AI Mental Health Therapist", layout="wide")
-st.title("🧠 Akhilesh – AI Mental Health Therapist")
+st.set_page_config(page_title="SoulBalm", layout="wide")
+st.title("🧠 Akhilesh – SoulBalm")
 
 # Initialize chat history in session state
 if "chat_history" not in st.session_state:
